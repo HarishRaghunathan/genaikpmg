@@ -109,7 +109,7 @@ def chat():
         return jsonify({"error": str(e)}), 500
 
 def ensure_openai_token():    
-    app.config["openAI_key"] = "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"
+    app.config["openAI_key"] = "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"
     """ global openai_token
     if openai_token.expires_on < int(time.time()) - 60:
         openai_token = azure_credential.get_token("https://cognitiveservices.azure.com/.default")
